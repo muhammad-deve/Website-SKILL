@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "scale": {
+    "1": "Major unresolved mismatch with the brief",
+    "2": "Usable foundation with significant defects",
+    "3": "Coherent and mostly resolved",
+    "4": "Strong, deliberate craft with minor issues",
+    "5": "Exceptional fit supported by specific evidence",
+    "unreviewed": "No adequate evidence"
+  },
+  "dimensions": [
+    {
+      "id": "art-direction",
+      "question": "Do subject, imagery and visual language form a deliberate whole?",
+      "evidence_required": true
+    },
+    {
+      "id": "hierarchy",
+      "question": "Can the user locate the main decision and next action?",
+      "evidence_required": true
+    },
+    {
+      "id": "typography",
+      "question": "Are roles, metrics, wrapping and language coverage resolved?",
+      "evidence_required": true
+    },
+    {
+      "id": "layout",
+      "question": "Does composition support reading and task order?",
+      "evidence_required": true
+    },
+    {
+      "id": "spacing",
+      "question": "Do gaps express grouping and rhythm consistently?",
+      "evidence_required": true
+    },
+    {
+      "id": "color",
+      "question": "Do semantic roles and contrast work across actual surfaces?",
+      "evidence_required": true
+    },
+    {
+      "id": "originality",
+      "question": "Are decisions specific to this brief rather than interchangeable?",
+      "evidence_required": true
+    },
+    {
+      "id": "brand-coherence",
+      "question": "Do routes and states express one identifiable system?",
+      "evidence_required": true
+    },
+    {
+      "id": "interaction",
+      "question": "Do controls communicate and perform their promised actions?",
+      "evidence_required": true
+    },
+    {
+      "id": "responsiveness",
+      "question": "Does content recompose well at the tested sizes?",
+      "evidence_required": true
+    },
+    {
+      "id": "accessibility",
+      "question": "What automated and manual evidence supports use by diverse users?",
+      "evidence_required": true
+    },
+    {
+      "id": "technical-quality",
+      "question": "Do assets, loading and runtime behavior meet the agreed requirements?",
+      "evidence_required": true
+    }
+  ],
+  "rule": "Scores are subjective judgments with evidence and reviewer identity. Do not average into a beauty certificate. Objective failures remain separate and cannot be canceled by visual scores."
+}

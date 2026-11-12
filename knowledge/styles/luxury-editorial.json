@@ -1,0 +1,87 @@
+{
+  "id": "luxury-editorial",
+  "name": "Luxury editorial",
+  "aliases": [
+    "luxury",
+    "quiet luxury",
+    "high-fashion",
+    "serif-led",
+    "boutique hospitality",
+    "luxury e-commerce"
+  ],
+  "axes": {
+    "aesthetic": [
+      "luxury",
+      "editorial"
+    ],
+    "composition": [
+      "image-dominant",
+      "editorial"
+    ],
+    "product": [
+      "luxury-retail",
+      "hospitality",
+      "fashion"
+    ],
+    "density": "low",
+    "motion": "low"
+  },
+  "philosophy": "Communicate material, authorship and care through specific imagery and deliberate pacing. Luxury is supported by useful product information and service, not by hiding price or navigation.",
+  "influences": "Editorial art direction, exhibition catalogs and product photography inform this contemporary recipe. Avoid presenting a serif face or beige palette as historical proof of luxury.",
+  "characteristics": [
+    "Large purposeful image fields",
+    "A serif or expressive display voice balanced by readable utility text",
+    "Selective contrast between generous narrative space and compact purchasing details"
+  ],
+  "use_cases": [
+    "Small-run furniture collection",
+    "Watch product story",
+    "Independent hotel"
+  ],
+  "typography": "Test a display serif at its intended optical size; fine hairlines can fail at small sizes. Keep product details and booking controls sturdy. Begin with Georgia and a system sans when licensed assets are unavailable; select a final font through real-language specimens.",
+  "color": "Draw the palette from materials and photography. Dark ink on a light ground is one option, not a mandate. Gold is a material cue only when relevant; pale gold body text usually weakens legibility.",
+  "spacing": "Separate narrative chapters generously, but keep price, variants, availability and purchase action close. A 24px control group gap should not become a 120px mobile dead zone.",
+  "composition": "Use image-led chapters with varying scale and restrained text columns. Product detail pages need a stable action area and direct access to sizing, delivery and returns.",
+  "imagery": "Art-direct a consistent light direction, crop family and material detail. Missing photographs are a production dependency, not permission to invent a product rendering or testimonials.",
+  "iconography": "Few simple controls, paired with words where ambiguity affects purchase. Decorative crests and pseudo-heritage seals require a real brand reason.",
+  "components": "Product selectors expose selected and unavailable states. Show total price and practical service details. Editorial pull quotes need attribution, not fictional endorsements.",
+  "interaction": "Image zoom must have a keyboard-accessible alternative. Swatches update the relevant image and textual color name. Avoid hover-only discovery.",
+  "motion": "A gentle crossfade may connect product views. Preserve scroll control; cinematic chapters need a static reduced-motion version and visible navigation.",
+  "mobile": "Prioritize product, price, options and purchase action before long brand narrative. Keep image focal points visible. A sticky purchase bar must not cover content or focus.",
+  "accessibility": "Check text over every image crop, not just the desktop hero. Provide meaningful product descriptions and avoid disabling zoom.",
+  "mistakes": [
+    "Thin pale text treated as sophistication",
+    "Stock scenes unrelated to the offer",
+    "Unreachable purchase controls below an oversized introduction"
+  ],
+  "amateurish": "A generic serif, large whitespace and gold accents without material specificity or complete buying information.",
+  "exceptional": "The image, copy, detail hierarchy and service flow convey the same product quality. Deliberate quietness survives mobile and error states.",
+  "references": [
+    "stripe-site"
+  ],
+  "implementation": "Use figure/figcaption for material stories, aspect-ratio for stable images and object-position per crop. Separate display and control tokens. Do not bind layout to a fixed viewport height.",
+  "libraries": "Native responsive images and CSS are enough for most pages. Adopt a dialog primitive only when zoom or a size guide requires it.",
+  "evaluation": [
+    "Is the product's material or provenance demonstrated?",
+    "Can a mobile visitor find price, availability and service terms?",
+    "Do all controls remain robust when the display type is removed?"
+  ],
+  "tokens": {
+    "background": "#faf8f3",
+    "surface": "#efede6",
+    "text": "#28241e",
+    "muted": "#62594d",
+    "accent": "#573c2b",
+    "on_accent": "#ffffff",
+    "radius": "2px",
+    "measure": "58ch",
+    "display": "clamp(2.6rem, 6vw, 6rem)"
+  },
+  "sources": [
+    "variable-fonts",
+    "wcag22"
+  ],
+  "version": 1,
+  "status": "implemented",
+  "evidence": "Original design recipe; source-linked engineering constraints. Not a validated causal model of visual quality."
+}

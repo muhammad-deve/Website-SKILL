@@ -1,0 +1,4 @@
+[
+  {"name":"read-approach","steps":[{"action":"click","selector":"#work article:first-of-type details summary"},{"action":"expectVisible","selector":"details[open] p"}]},
+  {"name":"keyboard-navigation","steps":[{"action":"press","selector":"body","key":"Tab"},{"action":"expectText","selector":":focus","text":"Skip to content"},{"action":"press","selector":":focus","key":"Enter"},{"action":"expectVisible","selector":"#main"}]}
+]

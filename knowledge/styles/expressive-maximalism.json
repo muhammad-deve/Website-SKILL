@@ -1,0 +1,89 @@
+{
+  "id": "expressive-maximalism",
+  "name": "Expressive maximalism",
+  "aliases": [
+    "maximalism",
+    "maximalist",
+    "neo-maximalism",
+    "collage",
+    "color blocking",
+    "music festival",
+    "memphis"
+  ],
+  "axes": {
+    "aesthetic": [
+      "maximalist",
+      "expressive"
+    ],
+    "composition": [
+      "layered",
+      "color-blocking"
+    ],
+    "product": [
+      "entertainment",
+      "events",
+      "creative-agency"
+    ],
+    "density": "high",
+    "motion": "medium"
+  },
+  "philosophy": "Create abundant visual energy around a stable information spine. The audience can enjoy complexity because the next useful action stays clear.",
+  "influences": "Poster composition, collage, illustration and expressive editorial work suggest techniques. Memphis is a related visual reference, not a synonym for all maximalism.",
+  "characteristics": [
+    "Multiple saturated color fields with disciplined contrast",
+    "Intentional shifts in scale and rhythm",
+    "Layered decorative material separated from functional content"
+  ],
+  "use_cases": [
+    "Music festival",
+    "Arts program",
+    "Playful consumer campaign"
+  ],
+  "typography": "A display face can bend the tone, but schedule times and ticket controls need a stable text system. Keep experimental typography to short strings. Use real text rather than images of every headline.",
+  "color": "Use several hues with explicit surface/text pairings. Define each section as a legible color pair instead of scattering independent random colors. Gradients and glows are valid if they support the world and don't obscure reading.",
+  "spacing": "High density does not mean all gaps are small. Keep generous breathing room around the primary action and navigation, then pack optional expressive details into controlled fields.",
+  "composition": "Choose one persistent navigation grammar and one main reading path. Layer the art on separate noninteractive planes. Vary section composition by content type: lineup, schedule, venue, access information.",
+  "imagery": "Original illustration, performer photography or licensed mixed media should belong to a coherent world. Decorative SVG shapes can support typography without pretending to be real performers or venue imagery.",
+  "iconography": "An expressive set is welcome; maintain recognizable functional symbols and label unusual controls. Reuse line weight or silhouette logic.",
+  "components": "Bold ticket controls and vivid selected states. A quiet accessible schedule can coexist with exuberant surrounding art. Do not make every item a competing primary action.",
+  "interaction": "Program filters preserve event information, visibly identify selected options and announce result counts. Critical information should not depend on hover or a playful discovery gesture.",
+  "motion": "Choose one dominant rhythm. Avoid stacking parallax, marquee, auto video and scroll hijacking. Offer pause for ongoing content and replace spatial motion in reduced-motion mode.",
+  "mobile": "Remove secondary decorative overlaps, preserve the lineup order and keep ticket/access information near the top. Test long artist names, translated labels and touch navigation.",
+  "accessibility": "Test contrast per section and focused state; color cannot be the only schedule category signal. Avoid flashing content and obstructing reading with animation.",
+  "mistakes": [
+    "Adding every fashionable effect",
+    "Changing navigation conventions in each section",
+    "Glowing text on equally bright backgrounds"
+  ],
+  "amateurish": "Unrelated fonts, random stickers and continuous movement compete with the actual event information.",
+  "exceptional": "The page is visually abundant yet the visitor can still find date, venue, program and access details immediately.",
+  "references": [
+    "figma-site"
+  ],
+  "implementation": "Use section-scoped color variables, isolated decorative layers with pointer-events:none, fluid display type and a plain semantic schedule. See the original festival example.",
+  "libraries": "CSS and SVG for a static visual world; Motion or GSAP only for a demonstrated choreography need. Keep essential content outside canvas/WebGL.",
+  "evaluation": [
+    "Can someone find date, location and action without exploring?",
+    "Does every section have a readable foreground/background pair?",
+    "Is the static version still expressive and complete?"
+  ],
+  "tokens": {
+    "background": "#321b70",
+    "surface": "#482887",
+    "text": "#ffffff",
+    "muted": "#e1d8fc",
+    "accent": "#fbd34a",
+    "on_accent": "#241342",
+    "radius": "12px",
+    "measure": "62ch",
+    "display": "clamp(3rem, 10vw, 9rem)"
+  },
+  "sources": [
+    "figma",
+    "wcag22",
+    "animation-performance"
+  ],
+  "version": 1,
+  "status": "implemented",
+  "evidence": "Original design recipe; source-linked engineering constraints. Not a validated causal model of visual quality."
+}

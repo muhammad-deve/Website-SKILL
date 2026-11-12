@@ -1,0 +1,401 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "emil",
+      "name": "emilkowalski/skills",
+      "kind": "repository",
+      "url": "https://github.com/emilkowalski/skills",
+      "inspected": "2026-11-12",
+      "evidence": "source-inspection",
+      "revision": "f7ce8c02d6e3c8f0d980a44c57bcc41a40254349",
+      "license": "MIT",
+      "scope": "README and license inspected; selected implementation sampled, not executed",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/emilkowalski/skills/blob/f7ce8c02d6e3c8f0d980a44c57bcc41a40254349/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/emilkowalski/skills/blob/f7ce8c02d6e3c8f0d980a44c57bcc41a40254349/LICENSE"
+        },
+        {
+          "path": "skills/emil-design-eng/SKILL.md",
+          "url": "https://github.com/emilkowalski/skills/blob/f7ce8c02d6e3c8f0d980a44c57bcc41a40254349/skills/emil-design-eng/SKILL.md"
+        },
+        {
+          "path": "skills/review-animations/SKILL.md",
+          "url": "https://github.com/emilkowalski/skills/blob/f7ce8c02d6e3c8f0d980a44c57bcc41a40254349/skills/review-animations/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "pro-max",
+      "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "kind": "repository",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "inspected": "2026-11-12",
+      "evidence": "source-inspection",
+      "revision": "6ae86f61f520d6ca229d2f40e070410638c908c5",
+      "license": "MIT",
+      "scope": "README and license inspected; selected implementation sampled, not executed",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/6ae86f61f520d6ca229d2f40e070410638c908c5/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/6ae86f61f520d6ca229d2f40e070410638c908c5/LICENSE"
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/SKILL.md",
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/6ae86f61f520d6ca229d2f40e070410638c908c5/.claude/skills/ui-ux-pro-max/SKILL.md"
+        },
+        {
+          "path": "src/ui-ux-pro-max/scripts/core.py",
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/6ae86f61f520d6ca229d2f40e070410638c908c5/src/ui-ux-pro-max/scripts/core.py"
+        }
+      ]
+    },
+    {
+      "id": "unslop",
+      "name": "heydamir/unslop",
+      "kind": "repository",
+      "url": "https://github.com/heydamir/unslop",
+      "inspected": "2026-11-12",
+      "evidence": "source-inspection",
+      "revision": "97daa3eb365670ea3f87ed85356cbfcee18105a5",
+      "license": "CC-BY-4.0",
+      "scope": "README and license inspected; selected implementation sampled, not executed",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/heydamir/unslop/blob/97daa3eb365670ea3f87ed85356cbfcee18105a5/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/heydamir/unslop/blob/97daa3eb365670ea3f87ed85356cbfcee18105a5/LICENSE"
+        },
+        {
+          "path": "skills/unslop/SKILL.md",
+          "url": "https://github.com/heydamir/unslop/blob/97daa3eb365670ea3f87ed85356cbfcee18105a5/skills/unslop/SKILL.md"
+        },
+        {
+          "path": "skills/unslop/references/tokens.md",
+          "url": "https://github.com/heydamir/unslop/blob/97daa3eb365670ea3f87ed85356cbfcee18105a5/skills/unslop/references/tokens.md"
+        }
+      ]
+    },
+    {
+      "id": "impeccable",
+      "name": "pbakaus/impeccable",
+      "kind": "repository",
+      "url": "https://github.com/pbakaus/impeccable",
+      "inspected": "2026-11-12",
+      "evidence": "source-inspection",
+      "revision": "b4bff1626c344067788c2679f048a20057c7cc5a",
+      "license": "Apache-2.0",
+      "scope": "README and license inspected; selected implementation sampled, not executed",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/pbakaus/impeccable/blob/b4bff1626c344067788c2679f048a20057c7cc5a/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/pbakaus/impeccable/blob/b4bff1626c344067788c2679f048a20057c7cc5a/LICENSE"
+        },
+        {
+          "path": ".claude/skills/impeccable/SKILL.md",
+          "url": "https://github.com/pbakaus/impeccable/blob/b4bff1626c344067788c2679f048a20057c7cc5a/.claude/skills/impeccable/SKILL.md"
+        },
+        {
+          "path": "scripts/lib/transformers/providers.js",
+          "url": "https://github.com/pbakaus/impeccable/blob/b4bff1626c344067788c2679f048a20057c7cc5a/scripts/lib/transformers/providers.js"
+        }
+      ]
+    },
+    {
+      "id": "taste-pack",
+      "name": "tyfarrago-hub/taste",
+      "kind": "repository",
+      "url": "https://github.com/tyfarrago-hub/taste",
+      "inspected": "2026-11-12",
+      "evidence": "source-inspection",
+      "revision": "acbb3e9c9051e096cb9e5e5cc1af88d56bc05459",
+      "license": "MIT; individual vendored licenses apply",
+      "scope": "README and license inspected; selected implementation sampled, not executed",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/tyfarrago-hub/taste/blob/acbb3e9c9051e096cb9e5e5cc1af88d56bc05459/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/tyfarrago-hub/taste/blob/acbb3e9c9051e096cb9e5e5cc1af88d56bc05459/LICENSE"
+        },
+        {
+          "path": "skills/design-taste-frontend/SKILL.md",
+          "url": "https://github.com/tyfarrago-hub/taste/blob/acbb3e9c9051e096cb9e5e5cc1af88d56bc05459/skills/design-taste-frontend/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "taste-skill",
+      "name": "leonxlnx/taste-skill",
+      "kind": "repository",
+      "url": "https://github.com/leonxlnx/taste-skill",
+      "inspected": "2026-11-12",
+      "evidence": "source-inspection",
+      "revision": "f6b76575f949707b4e3c37cd86cb44b0b98643e8",
+      "license": "MIT",
+      "scope": "README and license inspected; selected implementation sampled, not executed",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/leonxlnx/taste-skill/blob/f6b76575f949707b4e3c37cd86cb44b0b98643e8/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/leonxlnx/taste-skill/blob/f6b76575f949707b4e3c37cd86cb44b0b98643e8/LICENSE"
+        },
+        {
+          "path": "skills/taste-skill/SKILL.md",
+          "url": "https://github.com/leonxlnx/taste-skill/blob/f6b76575f949707b4e3c37cd86cb44b0b98643e8/skills/taste-skill/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "claude-design-skills",
+      "name": "shashidharbabu/claude-design-skills",
+      "kind": "repository",
+      "url": "https://github.com/shashidharbabu/claude-design-skills",
+      "inspected": "2026-11-12",
+      "evidence": "source-inspection",
+      "revision": "db5dbeb86ecfafc6cb368a4a72fe5889ced16c43",
+      "license": "MIT; individual vendored licenses apply",
+      "scope": "README and license inspected; selected implementation sampled, not executed",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/shashidharbabu/claude-design-skills/blob/db5dbeb86ecfafc6cb368a4a72fe5889ced16c43/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/shashidharbabu/claude-design-skills/blob/db5dbeb86ecfafc6cb368a4a72fe5889ced16c43/LICENSE"
+        },
+        {
+          "path": "skills/design-arsenal/SKILL.md",
+          "url": "https://github.com/shashidharbabu/claude-design-skills/blob/db5dbeb86ecfafc6cb368a4a72fe5889ced16c43/skills/design-arsenal/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "design-skill",
+      "name": "sboghossian/design-skill",
+      "kind": "repository",
+      "url": "https://github.com/sboghossian/design-skill",
+      "inspected": "2026-11-12",
+      "evidence": "source-inspection",
+      "revision": "a20fd990ed44a35bc447b3ace2b1b79236eb77fc",
+      "license": "MIT",
+      "scope": "README and license inspected; selected implementation sampled, not executed",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/sboghossian/design-skill/blob/a20fd990ed44a35bc447b3ace2b1b79236eb77fc/README.md"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/sboghossian/design-skill/blob/a20fd990ed44a35bc447b3ace2b1b79236eb77fc/LICENSE"
+        },
+        {
+          "path": "SKILL.md",
+          "url": "https://github.com/sboghossian/design-skill/blob/a20fd990ed44a35bc447b3ace2b1b79236eb77fc/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "codex-skills",
+      "name": "Codex skill discovery",
+      "url": "https://learn.chatgpt.com/docs/build-skills",
+      "kind": "documentation",
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Read directly; see analysis for scope",
+      "license": "not applicable; linked analysis only"
+    },
+    {
+      "id": "claude-skills",
+      "name": "Claude Code skills",
+      "url": "https://code.claude.com/docs/en/skills",
+      "kind": "documentation",
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Read directly; see analysis for scope",
+      "license": "not applicable; linked analysis only"
+    },
+    {
+      "id": "playwright-a11y",
+      "name": "Playwright accessibility testing",
+      "url": "https://playwright.dev/docs/accessibility-testing",
+      "kind": "documentation",
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Read directly; see analysis for scope",
+      "license": "not applicable; linked analysis only"
+    },
+    {
+      "id": "wcag22",
+      "name": "WCAG 2.2",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "kind": "standard",
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Read directly; see analysis for scope",
+      "license": "not applicable; linked analysis only"
+    },
+    {
+      "id": "web-vitals",
+      "name": "Core Web Vitals",
+      "url": "https://web.dev/articles/vitals",
+      "kind": "documentation",
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Read directly; see analysis for scope",
+      "license": "not applicable; linked analysis only"
+    },
+    {
+      "id": "oklch",
+      "name": "MDN OKLCH",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/oklch",
+      "kind": "documentation",
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Read directly; see analysis for scope",
+      "license": "not applicable; linked analysis only"
+    },
+    {
+      "id": "variable-fonts",
+      "name": "MDN variable fonts",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts",
+      "kind": "documentation",
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Read directly; see analysis for scope",
+      "license": "not applicable; linked analysis only"
+    },
+    {
+      "id": "animation-performance",
+      "name": "Rendering cost of animation",
+      "url": "https://web.dev/articles/animations-guide",
+      "kind": "documentation",
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Read directly; see analysis for scope",
+      "license": "not applicable; linked analysis only"
+    },
+    {
+      "id": "govuk",
+      "name": "GOV.UK Design System",
+      "url": "https://design-system.service.gov.uk/",
+      "kind": "website",
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Read directly; see analysis for scope",
+      "license": "not applicable; linked analysis only"
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "url": "https://stripe.com/",
+      "kind": "website",
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Read directly; see analysis for scope",
+      "license": "not applicable; linked analysis only"
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "url": "https://linear.app/",
+      "kind": "website",
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Read directly; see analysis for scope",
+      "license": "not applicable; linked analysis only"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "url": "https://www.figma.com/",
+      "kind": "website",
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Read directly; see analysis for scope",
+      "license": "not applicable; linked analysis only"
+    },
+    {
+      "id": "awwwards",
+      "name": "Awwwards Sites of the Year archive",
+      "url": "https://www.awwwards.com/websites/sites_of_the_year/",
+      "kind": "award",
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Read directly; see analysis for scope",
+      "license": "not applicable; linked analysis only"
+    },
+    {
+      "id": "yc-directory",
+      "name": "YC directory",
+      "url": "https://www.ycombinator.com/companies",
+      "kind": "website",
+      "inspected": "2026-11-12",
+      "evidence": "unavailable",
+      "scope": "No readable content returned; no startups selected",
+      "license": "not applicable; linked analysis only"
+    },
+    {
+      "id": "community-iteration",
+      "name": "Discussion of difficulty designing with Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1w8udmf/functionality_is_such_a_breeze_while_design_is_so/",
+      "kind": "community",
+      "inspected": "2026-11-12",
+      "evidence": "opinion",
+      "scope": "Read directly; see analysis for scope",
+      "license": "not applicable; linked analysis only"
+    },
+    {
+      "id": "anthropic-frontend",
+      "name": "Anthropic frontend-design implementation",
+      "url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+      "kind": "repository",
+      "inspected": "2026-11-12",
+      "evidence": "source-inspection",
+      "scope": "Read directly; see analysis for scope",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "vercel-guidelines",
+      "name": "Vercel review skill",
+      "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md",
+      "kind": "repository",
+      "inspected": "2026-11-12",
+      "evidence": "source-inspection",
+      "scope": "Read directly; see analysis for scope",
+      "license": "not verified; do not vendor"
+    },
+    {
+      "id": "stitch",
+      "name": "Google Stitch skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "kind": "repository",
+      "inspected": "2026-11-12",
+      "evidence": "source-inspection",
+      "scope": "README only; integration not executed",
+      "license": "not verified; do not vendor"
+    }
+  ]
+}

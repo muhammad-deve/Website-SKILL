@@ -1,0 +1,94 @@
+{
+  "id": "technical-utilitarian",
+  "name": "Technical utilitarian",
+  "aliases": [
+    "dashboard",
+    "enterprise",
+    "fintech",
+    "analytics",
+    "developer",
+    "saas",
+    "ai product",
+    "technical utilitarianism"
+  ],
+  "axes": {
+    "aesthetic": [
+      "utilitarian",
+      "restrained"
+    ],
+    "composition": [
+      "application-shell",
+      "data-grid"
+    ],
+    "product": [
+      "saas",
+      "fintech",
+      "developer-tools",
+      "enterprise"
+    ],
+    "density": "high",
+    "motion": "low"
+  },
+  "philosophy": "Help people understand state, compare information and act with confidence. Precision is the source of character; reduce effort before adding decoration.",
+  "influences": "Operational tools, instrument panels and information-rich workspaces. Product category is not a fixed visual style: a technical interface can still have a distinctive brand.",
+  "characteristics": [
+    "Consistent data alignment",
+    "Clear separation of context, controls and results",
+    "Visible state and recovery paths"
+  ],
+  "use_cases": [
+    "Payment reconciliation",
+    "Deployment console",
+    "Analytics workspace"
+  ],
+  "typography": "Choose distinguishable 0/O and 1/l/I, good punctuation and tabular numerals. Use proportional text for prose and mono only where token alignment helps. Avoid tiny type to fit more columns.",
+  "color": "Separate brand accent from success, warning and failure. Combine semantic color with labels or shapes. Define selected, hover and focus independently; dark themes need their own tested pairs.",
+  "spacing": "Offer comfortable defaults and a deliberate compact variant if users need it. Group toolbar controls near their results. Use row padding rather than reducing line-height until text collides.",
+  "composition": "Start with context header, task controls, main result and exception detail. A table may be better than a bento grid. Place secondary panels only where they support the primary operation.",
+  "imagery": "Use real or explicitly fictional task data, useful diagrams and product evidence. Do not substitute an arbitrary glowing chart for a working interface.",
+  "iconography": "One coherent functional set. Persistent text labels for unfamiliar tools. Reserve icon-only controls for well-understood actions with accessible names.",
+  "components": "Tables expose units, column headers, sort state and empty results. Forms preserve values after error. Charts include time range, units, comparison context and accessible data alternatives.",
+  "interaction": "Support keyboard flow, filter reset, loading/error/empty states and clear feedback. Bulk or destructive actions need confirmation appropriate to their consequence.",
+  "motion": "State changes should feel prompt. Animate spatial continuity only when it helps track an item. Avoid continuous count-up effects on frequently visited dashboards.",
+  "mobile": "Choose priority columns and a deliberate overflow region for genuinely two-dimensional tables. Keep page-level reflow. Put labels on scroll regions and ensure keyboard access.",
+  "accessibility": "Use native table markup unless a true interactive grid is needed. Validate focus return after dialogs, announcements after updates and errors tied to their inputs.",
+  "mistakes": [
+    "Charts with no units or timeframe",
+    "Green/red as the sole state cue",
+    "KPI tiles unrelated to any user decision"
+  ],
+  "amateurish": "A handsome shell filled with arbitrary statistics, duplicate charts and nonfunctional filters.",
+  "exceptional": "Every number has context, exceptional states have recovery, and the information density matches the actual decisions users make.",
+  "references": [
+    "linear-site",
+    "stripe-site",
+    "govuk-system"
+  ],
+  "implementation": "Use minmax(0,1fr) for the content track, overflow:auto on a named table region, and shared number/date formatters. The original operations example implements filtering and an empty state.",
+  "libraries": "Native tables and forms first; React Aria or Radix may help complex behavior. Evaluate virtualization only after data volume warrants it. A design system supplies behavior, not a compulsory look.",
+  "evaluation": [
+    "Can a user identify the most urgent item and act on it?",
+    "Do filters change the underlying result and announce the change?",
+    "Are values interpretable without color or decorative charts?"
+  ],
+  "tokens": {
+    "background": "#f3f6fa",
+    "surface": "#ffffff",
+    "text": "#182332",
+    "muted": "#536174",
+    "accent": "#164a91",
+    "on_accent": "#ffffff",
+    "radius": "6px",
+    "measure": "68ch",
+    "display": "clamp(1.75rem, 3vw, 2.75rem)"
+  },
+  "sources": [
+    "linear",
+    "stripe",
+    "govuk",
+    "wcag22"
+  ],
+  "version": 1,
+  "status": "implemented",
+  "evidence": "Original design recipe; source-linked engineering constraints. Not a validated causal model of visual quality."
+}

@@ -1,0 +1,87 @@
+{
+  "id": "industrial-brutalism",
+  "name": "Industrial brutalism",
+  "aliases": [
+    "brutalism",
+    "brutalist",
+    "neo-brutalism",
+    "industrial",
+    "punk",
+    "raw html"
+  ],
+  "axes": {
+    "aesthetic": [
+      "brutalist",
+      "industrial"
+    ],
+    "composition": [
+      "exposed-grid",
+      "asymmetric"
+    ],
+    "product": [
+      "creative-agency",
+      "portfolio",
+      "events"
+    ],
+    "density": "medium",
+    "motion": "low"
+  },
+  "philosophy": "Expose structure and assert a point of view while keeping controls predictable. Rawness is an art-direction choice; broken behavior is a defect.",
+  "influences": "Utilitarian signage, printed work orders and early unadorned web structures supply visual cues. These are contemporary associations, not claims that all brutalist work has one origin.",
+  "characteristics": [
+    "Visible borders and large typographic contrast",
+    "Limited materials used decisively",
+    "Unconcealed navigation and content structure"
+  ],
+  "use_cases": [
+    "Independent studio",
+    "Maker portfolio",
+    "Cultural event"
+  ],
+  "typography": "Use one forceful display voice and an ordinary readable body. A monospace face can signal actual metadata; avoid turning paragraphs into a terminal. Let headings wrap instead of horizontally compressing letters.",
+  "color": "Choose a strong ink/ground contrast and an accent tied to the subject. Bright signal colors can occupy broad areas. Check black or dark ink on bright fills before assuming white text is legible.",
+  "spacing": "Tight internal alignments can sit within large structural gutters. Define border thickness and spacing roles; arbitrary cramped spacing does not make the design raw.",
+  "composition": "An exposed grid, large project rows or purposeful collisions can create tension. Keep reading order and main navigation stable. Overlap only nonessential decoration or short display elements.",
+  "imagery": "Use process documentation, workshop photographs or project artifacts. A rough crop can be intentional, but broken images and low-resolution product proof undermine credibility.",
+  "iconography": "Simple directional or tool-like forms. Never rely on a custom symbol for an essential action without a label.",
+  "components": "Square buttons, ruled lists and emphatic selected states. Preserve native form semantics; controls must remain distinguishable from bordered decoration.",
+  "interaction": "Hover may invert colors or shift a small amount; keyboard focus needs its own state. All project rows must have meaningful destinations.",
+  "motion": "Abrupt or stepped motion can fit the style. Prefer action feedback; stop recurring decorative motion on reduced-motion and provide pause for ongoing movement.",
+  "mobile": "Replace layered desktop compositions with linear project rows. Keep the visual tension in type and border rhythm, not clipping or sideways scrolling.",
+  "accessibility": "Strong contrast is helpful but not sufficient. Check landmark order, target spacing, focus visibility and whether all-caps passages are unnecessarily hard to read.",
+  "mistakes": [
+    "Cursor tricks that obscure targets",
+    "Overlaps that cover body text",
+    "Distorted labels on essential actions"
+  ],
+  "amateurish": "Random borders, chaotic offsets and a hostile navigation system mistaken for intentional rebellion.",
+  "exceptional": "The structure appears blunt yet every alignment, interaction and content transition has been resolved.",
+  "references": [
+    "govuk-system"
+  ],
+  "implementation": "Use a small border token, semantic lists and grid rows. A 2px rule with no radius is a starting recipe, not a universal rule. Add :focus-visible independently of hover.",
+  "libraries": "Native HTML/CSS is often the strongest base. A component library can provide behavior but should not dictate the visual container system.",
+  "evaluation": [
+    "Is the primary task as discoverable as on a conventional layout?",
+    "Are apparently rough edges actually consistent?",
+    "Does the small-screen composition retain intent without overlap?"
+  ],
+  "tokens": {
+    "background": "#e8edf0",
+    "surface": "#ffffff",
+    "text": "#171a1c",
+    "muted": "#475158",
+    "accent": "#b72b22",
+    "on_accent": "#ffffff",
+    "radius": "0px",
+    "measure": "60ch",
+    "display": "clamp(3rem, 9vw, 8rem)"
+  },
+  "sources": [
+    "wcag22",
+    "anthropic-frontend"
+  ],
+  "version": 1,
+  "status": "implemented",
+  "evidence": "Original design recipe; source-linked engineering constraints. Not a validated causal model of visual quality."
+}

@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="An original fictional collections workspace with working filters and export."
+    />
+    <title>Relay — collections workspace</title>
+    <link rel="stylesheet" href="../shared.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="app">
+      <aside class="sidebar">
+        <a class="brand" href="#overview"
+          ><span aria-hidden="true">R</span> Relay</a
+        >
+        <p class="workspace">
+          Northline Studio<br /><small>Demo workspace</small>
+        </p>
+        <nav aria-label="Workspace">
+          <a href="#overview">Overview</a
+          ><a class="current" href="#invoices">Collections <span>3</span></a
+          ><a href="#activity">Activity</a>
+        </nav>
+        <div class="sidebar-foot">
+          <span class="avatar" aria-hidden="true">JT</span>
+          <p>Jordan Taylor<br /><small>Workspace owner</small></p>
+        </div>
+      </aside>
+      <div class="main-shell">
+        <header class="topbar">
+          <p>Workspace <span aria-hidden="true">/</span> Collections</p>
+          <span class="demo-label">Fictional data</span>
+        </header>
+        <main id="main">
+          <section id="overview">
+            <div class="page-title">
+              <div>
+                <p class="date">Snapshot / 12 November 2026</p>
+                <h1>Keep cash moving.</h1>
+                <p class="subtitle">
+                  Three open invoices. One clear view of what needs attention.
+                </p>
+              </div>
+              <button id="export" type="button">Export visible rows</button>
+            </div>
+            <p id="export-status" role="status" class="sr-only"></p>
+            <div class="metrics">
+              <div>
+                <h2>Outstanding</h2>
+                <p>$42,400<span>USD</span></p>
+                <small>Across 3 open invoices</small>
+              </div>
+              <div>
+                <h2>Overdue</h2>
+                <p>$18,200<span>USD</span></p>
+                <small>1 invoice needs follow-up</small>
+              </div>
+              <div>
+                <h2>Collected this month</h2>
+                <p>$6,700<span>USD</span></p>
+                <small>1 payment received</small>
+              </div>
+            </div>
+            <div class="attention">
+              <span class="attention-symbol" aria-hidden="true">!</span>
+              <div>
+                <h2>One follow-up could make the difference.</h2>
+                <p>Harbor Goods is 12 days past its invoice due date.</p>
+              </div>
+              <button id="show-overdue" type="button">
+                View overdue invoice
+              </button>
+            </div>
+          </section>
+          <section class="invoices" id="invoices">
+            <div class="table-title">
+              <h2>Invoices</h2>
+              <p id="result-count" role="status">4 invoices</p>
+            </div>
+            <div class="toolbar">
+              <div class="search">
+                <label for="query">Search customer or invoice</label
+                ><input
+                  type="search"
+                  id="query"
+                  placeholder="e.g. Harbor Goods"
+                  autocomplete="off"
+                />
+              </div>
+              <div>
+                <label for="status-filter">Payment status</label
+                ><select id="status-filter">
+                  <option value="all">All statuses</option>
+                  <option value="overdue">Overdue</option>
+                  <option value="open">Open</option>
+                  <option value="paid">Paid</option>
+                </select>
+              </div>
+              <button type="button" id="clear">Clear filters</button>
+            </div>
+            <p class="table-hint">
+              Scroll the table sideways to see amounts and status.
+            </p>
+            <div
+              class="table-scroll"
+              role="region"
+              aria-label="Invoice results; scroll horizontally on small screens"
+              tabindex="0"
+            >
+              <table>
+                <caption class="sr-only">
+                  Demo invoices in US dollars, snapshot 12 November 2026
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Customer</th>
+                    <th scope="col">Invoice</th>
+                    <th scope="col">Due date</th>
+                    <th scope="col">Status</th>
+                    <th scope="col" class="amount">Amount (USD)</th>
+                  </tr>
+                </thead>
+                <tbody id="rows"></tbody>
+              </table>
+            </div>
+            <div id="empty" hidden>
+              <h3>No invoices match these filters.</h3>
+              <p>
+                Try another customer name or clear the filters to see all
+                invoices.
+              </p>
+            </div>
+            <p class="table-note">
+              Amounts are fictional. No payment or customer system is connected.
+            </p>
+          </section>
+          <section class="activity" id="activity">
+            <div>
+              <h2>Recent activity</h2>
+              <p>A simple record of the latest changes.</p>
+            </div>
+            <ol>
+              <li>
+                <span class="activity-dot" aria-hidden="true"></span>
+                <div>
+                  <strong>Payment received from Cedar Works</strong>
+                  <p>Invoice INV-1041 · $6,700 USD</p>
+                </div>
+                <time datetime="2026-11-10">10 Nov</time>
+              </li>
+              <li>
+                <span class="activity-dot neutral" aria-hidden="true"></span>
+                <div>
+                  <strong>Invoice sent to Field Supply</strong>
+                  <p>Invoice INV-1044 · $14,600 USD</p>
+                </div>
+                <time datetime="2026-11-09">9 Nov</time>
+              </li>
+            </ol>
+          </section>
+        </main>
+        <footer>
+          <p>Relay / an original fictional operations interface</p>
+          <a href="../">All examples</a>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

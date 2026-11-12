@@ -1,0 +1,4 @@
+[
+  {"name":"filter-saturday","steps":[{"action":"select","selector":"#day","value":"saturday"},{"action":"expectText","selector":"#result-count","text":"2 performances"},{"action":"expectVisible","selector":"li[data-day=saturday] h3 >> nth=0"}]},
+  {"name":"save-festival","steps":[{"action":"click","selector":"#save"},{"action":"expectText","selector":"#save-status","text":"Saved in this browser."},{"action":"expectAttribute","selector":"#save","attribute":"aria-pressed","value":"true"}]}
+]

@@ -1,0 +1,736 @@
+{
+  "version": 1,
+  "recorded_at": "2026-11-12T18:51:34.579Z",
+  "node": "v24.11.0",
+  "platform": "win32",
+  "source_digest_sha256": "5d3d245426f4aaa04edf40440c52ba67eb3d4b315092a3dc5a1a50d6b8e3fc2b",
+  "source_digest_scope": "Sorted tools, tests, examples, then package-lock.json; path + NUL + file bytes",
+  "reports": [
+    {
+      "name": "editorial",
+      "report": "artifacts/tests/browser-ctD5fp/editorial/report.json",
+      "report_sha256": "b3abcad0eed65330c551e276f44cdf3146cd17196a6254de16390735d8489c38",
+      "passed": true,
+      "browser": "158.0.8127.18",
+      "started_at": "2026-11-12T18:50:15.340Z",
+      "finished_at": "2026-11-12T18:50:31.381Z",
+      "states": 18,
+      "errors": 0,
+      "axe_versions": [
+        "4.14.0"
+      ],
+      "violation_instances": 0,
+      "incomplete_rule_instances": 18,
+      "screenshots": [
+        {
+          "file": "320x740-reduce-initial.png",
+          "sha256": "44a49f95e6cc8e8d461260e081085425dddc91ae8640cea72d58ae798aefb567",
+          "viewport": {
+            "width": 320,
+            "height": 740
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "320x740-reduce-read-approach.png",
+          "sha256": "2018a69d6961e807e1d5e55937bd245567461d35fcd52966fc1816130d80da33",
+          "viewport": {
+            "width": 320,
+            "height": 740
+          },
+          "state": "read-approach",
+          "motion": "reduce"
+        },
+        {
+          "file": "320x740-reduce-keyboard-navigation.png",
+          "sha256": "44a49f95e6cc8e8d461260e081085425dddc91ae8640cea72d58ae798aefb567",
+          "viewport": {
+            "width": 320,
+            "height": 740
+          },
+          "state": "keyboard-navigation",
+          "motion": "reduce"
+        },
+        {
+          "file": "390x844-reduce-initial.png",
+          "sha256": "3a418083f1956b79431e619329d41791b28cc6a5a30865d09628458c6c2fd3b4",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "390x844-reduce-read-approach.png",
+          "sha256": "36c353dc6a2d33d6fafca3b16760fe175fdbca8a4c7e1e8758a557f6b1ae9df7",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "state": "read-approach",
+          "motion": "reduce"
+        },
+        {
+          "file": "390x844-reduce-keyboard-navigation.png",
+          "sha256": "3a418083f1956b79431e619329d41791b28cc6a5a30865d09628458c6c2fd3b4",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "state": "keyboard-navigation",
+          "motion": "reduce"
+        },
+        {
+          "file": "768x1024-reduce-initial.png",
+          "sha256": "d8b3eb5d1d7d3c42456a0362ecfec0fb51e8afc461b11c258d2cd55101f1ae9d",
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "768x1024-reduce-read-approach.png",
+          "sha256": "e2ca7d71108b7304562809bdf48bdcee2621d49f4be70a552c302d47e614f081",
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "state": "read-approach",
+          "motion": "reduce"
+        },
+        {
+          "file": "768x1024-reduce-keyboard-navigation.png",
+          "sha256": "d8b3eb5d1d7d3c42456a0362ecfec0fb51e8afc461b11c258d2cd55101f1ae9d",
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "state": "keyboard-navigation",
+          "motion": "reduce"
+        },
+        {
+          "file": "1280x800-reduce-initial.png",
+          "sha256": "7b39fad8952f557a605b2d6cdf39c68cf90f166a1ceb5188545df58f3868a1b1",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "1280x800-reduce-read-approach.png",
+          "sha256": "3453d6dab480db5d4d58cf4befd6d3b7d3aa7ce49076b4c4bf40eaba2d432dcc",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "state": "read-approach",
+          "motion": "reduce"
+        },
+        {
+          "file": "1280x800-reduce-keyboard-navigation.png",
+          "sha256": "7b39fad8952f557a605b2d6cdf39c68cf90f166a1ceb5188545df58f3868a1b1",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "state": "keyboard-navigation",
+          "motion": "reduce"
+        },
+        {
+          "file": "1440x900-reduce-initial.png",
+          "sha256": "37a480f3467560a9554978ad763fae4177e5096e81cebe53a7279b525f868b03",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "1440x900-reduce-read-approach.png",
+          "sha256": "3ffb437691b9eaa15dfde7add7df57fcc4f65d322de2b4fdc6032ac96376b9c9",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "state": "read-approach",
+          "motion": "reduce"
+        },
+        {
+          "file": "1440x900-reduce-keyboard-navigation.png",
+          "sha256": "37a480f3467560a9554978ad763fae4177e5096e81cebe53a7279b525f868b03",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "state": "keyboard-navigation",
+          "motion": "reduce"
+        },
+        {
+          "file": "1920x1080-reduce-initial.png",
+          "sha256": "40b783c1ec2531668df7c66c23f8df74ad6e6b292b7bfa7df4480cb5b881e5fa",
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "1920x1080-reduce-read-approach.png",
+          "sha256": "c2b271ddd4bf3c9448907c0e7c18e443b2e3eb99fef6fb254e6f853f885cc409",
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "state": "read-approach",
+          "motion": "reduce"
+        },
+        {
+          "file": "1920x1080-reduce-keyboard-navigation.png",
+          "sha256": "40b783c1ec2531668df7c66c23f8df74ad6e6b292b7bfa7df4480cb5b881e5fa",
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "state": "keyboard-navigation",
+          "motion": "reduce"
+        }
+      ]
+    },
+    {
+      "name": "festival",
+      "report": "artifacts/tests/browser-ctD5fp/festival/report.json",
+      "report_sha256": "f60295031a05af3e34b6944f34ba4accd6eae9ae6d698616e03d1b8675df7fbd",
+      "passed": true,
+      "browser": "158.0.8127.18",
+      "started_at": "2026-11-12T18:50:31.385Z",
+      "finished_at": "2026-11-12T18:50:48.308Z",
+      "states": 18,
+      "errors": 0,
+      "axe_versions": [
+        "4.14.0"
+      ],
+      "violation_instances": 0,
+      "incomplete_rule_instances": 0,
+      "screenshots": [
+        {
+          "file": "320x740-reduce-initial.png",
+          "sha256": "24d9929cc200ece05130d6801b0778a5c367e8818fbaeb73e9bc5b927fa405e2",
+          "viewport": {
+            "width": 320,
+            "height": 740
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "320x740-reduce-filter-saturday.png",
+          "sha256": "4b82598b10bf8e501a138ea80da855e6701a2962e616922ab0c9f7d44857495e",
+          "viewport": {
+            "width": 320,
+            "height": 740
+          },
+          "state": "filter-saturday",
+          "motion": "reduce"
+        },
+        {
+          "file": "320x740-reduce-save-festival.png",
+          "sha256": "f9b30b72741c43514511fa904aaa3cd08db526e6daeb982c6dc8e6ff1dca0419",
+          "viewport": {
+            "width": 320,
+            "height": 740
+          },
+          "state": "save-festival",
+          "motion": "reduce"
+        },
+        {
+          "file": "390x844-reduce-initial.png",
+          "sha256": "d23d828d92b78477bab89c97dc1d440b4507d65d1a9f05dfdd94fa803b57c857",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "390x844-reduce-filter-saturday.png",
+          "sha256": "55370f3cdb377cfc8525e10a49d735113912d8af1fd89d8644972908c1b71f81",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "state": "filter-saturday",
+          "motion": "reduce"
+        },
+        {
+          "file": "390x844-reduce-save-festival.png",
+          "sha256": "1a780120f2a97ce73f98a247c04a1c87dd71a272fa00ff8609a4eebdfbbfa015",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "state": "save-festival",
+          "motion": "reduce"
+        },
+        {
+          "file": "768x1024-reduce-initial.png",
+          "sha256": "953174ac366dfff876dd0717041e0d0346a94fec77e2dd90059cbc0517450203",
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "768x1024-reduce-filter-saturday.png",
+          "sha256": "91fa6bfd708b55984e6bb1986e587af3cbc5634121eba61f1ea96eb3dd56607f",
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "state": "filter-saturday",
+          "motion": "reduce"
+        },
+        {
+          "file": "768x1024-reduce-save-festival.png",
+          "sha256": "8dc5be5a8ebeed2c38260ca78384659959b98eb38a2821637667de50461378bf",
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "state": "save-festival",
+          "motion": "reduce"
+        },
+        {
+          "file": "1280x800-reduce-initial.png",
+          "sha256": "63c1b3110795734857906dd20b0bd5467c5cb2a5b9e82612871a1806f0303622",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "1280x800-reduce-filter-saturday.png",
+          "sha256": "1d5cebbef15bc58d6afea535753e9c5f558791d692c05f854b18e0452c742ad5",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "state": "filter-saturday",
+          "motion": "reduce"
+        },
+        {
+          "file": "1280x800-reduce-save-festival.png",
+          "sha256": "a2d41be61d0ffc9dded420188683e797a0eb11b366e9cf71718d7effc01812a2",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "state": "save-festival",
+          "motion": "reduce"
+        },
+        {
+          "file": "1440x900-reduce-initial.png",
+          "sha256": "d2f54cffb35af90634c440fbd8d29862bdd048b33d3a634b45e90899fd61140c",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "1440x900-reduce-filter-saturday.png",
+          "sha256": "8d9cc475ca3d86e2e793e9ba2c366888475b8687088915101ea9e95416d49af3",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "state": "filter-saturday",
+          "motion": "reduce"
+        },
+        {
+          "file": "1440x900-reduce-save-festival.png",
+          "sha256": "108eaa657d533c1b24a1158a2c566543f6ae194712d54b68f403175ade3b1fe6",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "state": "save-festival",
+          "motion": "reduce"
+        },
+        {
+          "file": "1920x1080-reduce-initial.png",
+          "sha256": "683b5a4a0a3612a794b300b8ace063a4940ea2decaefe18ac155ccb40ea10744",
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "1920x1080-reduce-filter-saturday.png",
+          "sha256": "4f90622de87dbfba4b89b1c2210c00cf57937ce8cf8fcb1b9ebd33c0cce58cb0",
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "state": "filter-saturday",
+          "motion": "reduce"
+        },
+        {
+          "file": "1920x1080-reduce-save-festival.png",
+          "sha256": "9f49298f87e82d24481e940bd46a9edf9f18388bd8eb34ca874faa3759d096e5",
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "state": "save-festival",
+          "motion": "reduce"
+        }
+      ]
+    },
+    {
+      "name": "operations",
+      "report": "artifacts/tests/browser-ctD5fp/operations/report.json",
+      "report_sha256": "a2ae47ed8c55ae81fdfbd4f4ff1d04967322a36b5e09031529a1a8283c51c66f",
+      "passed": true,
+      "browser": "158.0.8127.18",
+      "started_at": "2026-11-12T18:50:48.312Z",
+      "finished_at": "2026-11-12T18:51:04.920Z",
+      "states": 18,
+      "errors": 0,
+      "axe_versions": [
+        "4.14.0"
+      ],
+      "violation_instances": 0,
+      "incomplete_rule_instances": 9,
+      "screenshots": [
+        {
+          "file": "320x740-reduce-initial.png",
+          "sha256": "ae4587b50d93a31d2fdfb3d472b3d6dd3d4dc4d81977f0539cc170a105716b13",
+          "viewport": {
+            "width": 320,
+            "height": 740
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "320x740-reduce-overdue-filter.png",
+          "sha256": "13d5ea46ecd077e015b1cb3f31737d9dce5b09e113c7ba21c28f34c8d6259d87",
+          "viewport": {
+            "width": 320,
+            "height": 740
+          },
+          "state": "overdue-filter",
+          "motion": "reduce"
+        },
+        {
+          "file": "320x740-reduce-empty-and-recover.png",
+          "sha256": "7c5e617852c21388d1ffd1c38a06a01659f76f625a2a0b186f71419a7d0d173b",
+          "viewport": {
+            "width": 320,
+            "height": 740
+          },
+          "state": "empty-and-recover",
+          "motion": "reduce"
+        },
+        {
+          "file": "390x844-reduce-initial.png",
+          "sha256": "b52ae6518cad0c710ae99ba84403f871cf85b2f712ca1dd73a425cd4a4db8b2f",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "390x844-reduce-overdue-filter.png",
+          "sha256": "6c3b5a5023424c67c37084297c24113aea8bec858e061ed6724d364f597ad788",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "state": "overdue-filter",
+          "motion": "reduce"
+        },
+        {
+          "file": "390x844-reduce-empty-and-recover.png",
+          "sha256": "d447d06de49255039cecbd2af6f972a96318df6e832616d236ebc2407b821340",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "state": "empty-and-recover",
+          "motion": "reduce"
+        },
+        {
+          "file": "768x1024-reduce-initial.png",
+          "sha256": "72d72aff7b94967789e71a15048d2f183ed8999083ec33c2dd5414ed693ae023",
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "768x1024-reduce-overdue-filter.png",
+          "sha256": "e946340364eb1e10ce1b88632515d33b4cf6ebe8e9c235376c5370c605b40c1c",
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "state": "overdue-filter",
+          "motion": "reduce"
+        },
+        {
+          "file": "768x1024-reduce-empty-and-recover.png",
+          "sha256": "b8e74d0d6acf058a4e97cc2d84b7d185a90c64ce2ae87e4aa202b234360b504a",
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "state": "empty-and-recover",
+          "motion": "reduce"
+        },
+        {
+          "file": "1280x800-reduce-initial.png",
+          "sha256": "2b4fef13a5c30fd051ab3e46963308ab8ce74edbfe5ffad15be1f14e27ea2087",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "1280x800-reduce-overdue-filter.png",
+          "sha256": "198c8b6552d2891e5d6b9837bb6084579cd7c5e7a031cd592213ca1528e2cd23",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "state": "overdue-filter",
+          "motion": "reduce"
+        },
+        {
+          "file": "1280x800-reduce-empty-and-recover.png",
+          "sha256": "8293b34672eaec107588538c26d04a25f6b2e90cbbc56c4f46276f1be81d7ae0",
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "state": "empty-and-recover",
+          "motion": "reduce"
+        },
+        {
+          "file": "1440x900-reduce-initial.png",
+          "sha256": "f748651c383fccaab049b505fbb55f30b3b52c9f8671a5c418e062da21702701",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "1440x900-reduce-overdue-filter.png",
+          "sha256": "3482fa60761462e483f53ddd2366ffdb4b8e6c60298269fc56351eef51515ba1",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "state": "overdue-filter",
+          "motion": "reduce"
+        },
+        {
+          "file": "1440x900-reduce-empty-and-recover.png",
+          "sha256": "a38ca10eba5df5fd5fa3385cc04e1183d3f171e20ecb422bdac627e05145d57f",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "state": "empty-and-recover",
+          "motion": "reduce"
+        },
+        {
+          "file": "1920x1080-reduce-initial.png",
+          "sha256": "8acca0abeadd1fea0c6a7eb999102221af1dd7e997ca33f4af9239f671d64ec6",
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "1920x1080-reduce-overdue-filter.png",
+          "sha256": "a3bafdb9e7770325d6793e6c494b3264c5ba95da3be94642962dde1821e78516",
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "state": "overdue-filter",
+          "motion": "reduce"
+        },
+        {
+          "file": "1920x1080-reduce-empty-and-recover.png",
+          "sha256": "4afca541b638d65950a13677ba6ab957ca9586de1a6b175045af4ecf156a0a3a",
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "state": "empty-and-recover",
+          "motion": "reduce"
+        }
+      ]
+    },
+    {
+      "name": "operations-normal-motion",
+      "report": "artifacts/tests/browser-ctD5fp/operations-normal-motion/report.json",
+      "report_sha256": "558e5f79ef13e57d7815297acf4e7ca24561ae0ac66824a8f02ed7ae8919e335",
+      "passed": true,
+      "browser": "158.0.8127.18",
+      "started_at": "2026-11-12T18:51:12.895Z",
+      "finished_at": "2026-11-12T18:51:15.432Z",
+      "states": 2,
+      "errors": 0,
+      "axe_versions": [
+        "4.14.0"
+      ],
+      "violation_instances": 0,
+      "incomplete_rule_instances": 1,
+      "screenshots": [
+        {
+          "file": "320x740-no-preference-initial.png",
+          "sha256": "ae4587b50d93a31d2fdfb3d472b3d6dd3d4dc4d81977f0539cc170a105716b13",
+          "viewport": {
+            "width": 320,
+            "height": 740
+          },
+          "state": "initial",
+          "motion": "no-preference"
+        },
+        {
+          "file": "1440x900-no-preference-initial.png",
+          "sha256": "f748651c383fccaab049b505fbb55f30b3b52c9f8671a5c418e062da21702701",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "state": "initial",
+          "motion": "no-preference"
+        }
+      ]
+    },
+    {
+      "name": "negative",
+      "report": "artifacts/tests/browser-ctD5fp/negative/report.json",
+      "report_sha256": "ba03adc6d994b6f81ce4ae753184bf933537825489a5c5b24ec604deb7c3debb",
+      "passed": false,
+      "browser": "158.0.8127.18",
+      "started_at": "2026-11-12T18:51:04.932Z",
+      "finished_at": "2026-11-12T18:51:12.010Z",
+      "states": 2,
+      "errors": 0,
+      "axe_versions": [
+        "4.14.0"
+      ],
+      "violation_instances": 2,
+      "incomplete_rule_instances": 0,
+      "screenshots": [
+        {
+          "file": "390x844-reduce-initial.png",
+          "sha256": "a09397a55bc296098cb87d69fc035ecc46323c12d6fa205ac8140b6daadb05c7",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "state": "initial",
+          "motion": "reduce"
+        },
+        {
+          "file": "390x844-reduce-broken-control.png",
+          "sha256": "94ebe81af947e0c55be47497d616d83daddc58b5480af45177fbd5c746831346",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "state": "broken-control",
+          "motion": "reduce"
+        }
+      ]
+    },
+    {
+      "name": "missing",
+      "report": "artifacts/tests/browser-ctD5fp/missing/report.json",
+      "report_sha256": "228a902799e3794a4fb2fcc75640d6288e108315cce95a1d041c710d11d70065",
+      "passed": false,
+      "browser": "158.0.8127.18",
+      "started_at": "2026-11-12T18:51:15.495Z",
+      "finished_at": "2026-11-12T18:51:16.078Z",
+      "states": 0,
+      "errors": 1,
+      "axe_versions": [],
+      "violation_instances": 0,
+      "incomplete_rule_instances": 0,
+      "screenshots": []
+    }
+  ],
+  "targeted_accessibility": [
+    {
+      "page": "editorial",
+      "selector": ".text-link > span",
+      "foreground": "rgb(22, 35, 40)",
+      "backgrounds": [
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(255, 255, 255)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "opaque_background": "rgb(255, 255, 255)",
+      "ratio": 16.089887978715996,
+      "keyboard_scroll_tested": false
+    },
+    {
+      "page": "operations",
+      "selector": "#rows tr:first-child .amount",
+      "foreground": "rgb(24, 35, 50)",
+      "backgrounds": [
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(255, 255, 255)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)",
+        "rgb(243, 246, 250)",
+        "rgba(0, 0, 0, 0)"
+      ],
+      "opaque_background": "rgb(255, 255, 255)",
+      "ratio": 15.845366222422197,
+      "keyboard_scroll_tested": true
+    }
+  ],
+  "interpretation": "Positive automated fixtures passed and negative fixtures failed as intended. Visual review is a separate agent-authored sample in docs/visual-review.md. No controlled model benchmark, full WCAG certification, screen-reader, cross-browser or performance result is claimed."
+}

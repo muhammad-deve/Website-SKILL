@@ -1,0 +1,87 @@
+{
+  "id": "retro-interface",
+  "name": "Retro interface",
+  "aliases": [
+    "retro",
+    "y2k",
+    "windows 95",
+    "windows 98",
+    "early internet",
+    "pixel-art",
+    "skeuomorphism"
+  ],
+  "axes": {
+    "aesthetic": [
+      "retro",
+      "skeuomorphic"
+    ],
+    "composition": [
+      "windowed",
+      "modular"
+    ],
+    "product": [
+      "portfolio",
+      "entertainment",
+      "educational"
+    ],
+    "density": "medium",
+    "motion": "low"
+  },
+  "philosophy": "Use recognizable interface materials as storytelling while retaining contemporary input, responsiveness and access. Nostalgia should lower the cost of understanding, not reproduce old limitations.",
+  "influences": "Desktop window chrome, early web navigation, bitmap lettering and beveled controls. The selected era must be named; mixing every decade erases specificity.",
+  "characteristics": [
+    "A deliberate period-specific material system",
+    "Window or panel metaphors with legible hierarchy",
+    "Restrained decorative pixel motifs"
+  ],
+  "use_cases": [
+    "Software history exhibit",
+    "Personal creative portfolio",
+    "Small interactive learning project"
+  ],
+  "typography": "Use a system font for body text and a licensed pixel face only at sizes it was designed to render. Test device pixel ratio; never rasterize all content to emulate an old display.",
+  "color": "Define flat surfaces, highlights, shadows and selected states as roles. Avoid approximating a specific vendor's identity without purpose. Modern contrast requirements still apply.",
+  "spacing": "Build a consistent inset/bevel system. Give controls contemporary hit areas even when their visible chrome is compact. Do not force a 640px desktop into a phone viewport.",
+  "composition": "Window frames can group independent tasks, but unnecessary overlapping dialogs obstruct reading. Keep a clear main document with optional playful panels.",
+  "imagery": "Use original diagrams or licensed period artifacts with attribution. Do not redistribute operating-system logos, sounds or icon packs on the assumption that old means public domain.",
+  "iconography": "A small original pixel set may work. Essential actions need visible text and accessible names. Emoji are not a substitute for a coherent period icon set.",
+  "components": "Beveled buttons must have distinct press and focus states. Tabs follow standard keyboard interaction. A decorative title bar should not misleadingly advertise dragging or resizing.",
+  "interaction": "Support conventional browser links and back navigation. If dragging is implemented, also provide a non-drag alternative. Don't make a fake desktop the only route to essential content.",
+  "motion": "Short stepped transitions may fit. Avoid flashing cursors, boot sequences that gate content, and compulsory sound. User-triggered audio needs a stop control.",
+  "mobile": "Let windows become normal stacked panels. Keep close actions reachable and avoid accidental destructive dismissal. Decorative chrome can reduce while the era remains visible in type and materials.",
+  "accessibility": "Use semantic controls beneath visual chrome; test zoom, keyboard order, contrast and touch. Any novelty control needs an understandable conventional fallback.",
+  "mistakes": [
+    "Unlicensed nostalgic asset dumps",
+    "Tiny bitmap text throughout",
+    "Fake controls that imply behavior but do nothing"
+  ],
+  "amateurish": "A screenshot-like desktop with inaccessible text and nonfunctional window controls.",
+  "exceptional": "A clear era, original assets and convincing tactile states coexist with effortless modern navigation.",
+  "references": [
+    "govuk-system"
+  ],
+  "implementation": "Use CSS inset shadows and borders for bevels, not images of controls. Retain real buttons, headings and links. Collapse window columns below their content minimum.",
+  "libraries": "Plain CSS and semantic HTML suffice. Use a maintained accessible behavior library if adding dialogs; its visual style can be replaced.",
+  "evaluation": [
+    "Is the chosen era coherent?",
+    "Do all apparent controls perform the action they imply?",
+    "Can the whole experience be used without drag, sound or precise pointer input?"
+  ],
+  "tokens": {
+    "background": "#e2e8e6",
+    "surface": "#f1f1e9",
+    "text": "#182a27",
+    "muted": "#4a5955",
+    "accent": "#1b5650",
+    "on_accent": "#ffffff",
+    "radius": "1px",
+    "measure": "62ch",
+    "display": "clamp(2rem, 5vw, 4rem)"
+  },
+  "sources": [
+    "wcag22"
+  ],
+  "version": 1,
+  "status": "implemented",
+  "evidence": "Original design recipe; source-linked engineering constraints. Not a validated causal model of visual quality."
+}

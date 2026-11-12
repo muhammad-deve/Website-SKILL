@@ -1,0 +1,14 @@
+Website-SKILL design intelligence foundation
+Copyright (c) 2026 Muhammad Xudoynazarov
+
+Original code and original analysis are distributed under the repository MIT license.
+The initial release does not include third-party skill text, code, website screenshots,
+font files or brand assets. Research links acknowledge their respective authors; see
+research/sources.json and research/repository-audits/comparison.md.
+
+Conceptual research includes Emil Kowalski, Next Level Builder, Damir Sokolovsky,
+Paul Bakaus, Ty Farrago, Leonxlnx, Shashidhar Babu, Stephane Boghossian, Anthropic,
+Vercel and Google Labs. Linking and analysis do not relicense their work.
+
+npm dependencies retain their own licenses. Consult package-lock.json and each
+installed dependency's license. research/provenance.json tracks any future vendoring.

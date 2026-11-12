@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "policy": "Original implementation and original analytical metadata. External sources are linked, not redistributed. Dependency licenses remain in npm packages and package-lock.json.",
+  "incorporated": [],
+  "conceptual_sources": [
+    "emil",
+    "pro-max",
+    "unslop",
+    "impeccable",
+    "taste-pack",
+    "taste-skill",
+    "claude-design-skills",
+    "design-skill"
+  ],
+  "limitations": [
+    "Root license is not clearance for vendored subdirectories.",
+    "No website screenshots or third-party assets distributed.",
+    "Read source licenses again before any future incorporation."
+  ]
+}

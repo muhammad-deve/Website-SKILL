@@ -1,0 +1,573 @@
+{
+  "version": 1,
+  "axes": {
+    "aesthetic": "Visual philosophy and material vocabulary",
+    "composition": "Organization of information and visual space",
+    "product": "Category and task context",
+    "density": "low, medium or high; contextual",
+    "motion": "low, medium or high; contextual"
+  },
+  "implemented": [
+    "swiss-editorial",
+    "luxury-editorial",
+    "industrial-brutalism",
+    "expressive-maximalism",
+    "technical-utilitarian",
+    "retro-interface"
+  ],
+  "coverage_backlog": [
+    {
+      "name": "Minimalism",
+      "family": "restrained",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Ultra-minimalism",
+      "family": "restrained",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Swiss / International Typographic Style",
+      "family": "restrained",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Japanese-inspired minimalism",
+      "family": "restrained",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Scandinavian design",
+      "family": "restrained",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Editorial minimalism",
+      "family": "restrained",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Corporate minimalism",
+      "family": "restrained",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Quiet luxury",
+      "family": "restrained",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Monochromatic design",
+      "family": "restrained",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Typography-first design",
+      "family": "restrained",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Architectural minimalism",
+      "family": "restrained",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Luxury editorial",
+      "family": "luxury",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "High-fashion design",
+      "family": "luxury",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Premium SaaS",
+      "family": "luxury",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Elegant serif-led design",
+      "family": "luxury",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Cinematic luxury",
+      "family": "luxury",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Art-gallery aesthetic",
+      "family": "luxury",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Boutique hospitality",
+      "family": "luxury",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Premium product storytelling",
+      "family": "luxury",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Luxury e-commerce",
+      "family": "luxury",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Sophisticated dark interfaces",
+      "family": "luxury",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Maximalism",
+      "family": "expressive",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Neo-maximalism",
+      "family": "expressive",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Experimental typography",
+      "family": "expressive",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Art-directed collage",
+      "family": "expressive",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Expressive color blocking",
+      "family": "expressive",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Layered editorial composition",
+      "family": "expressive",
+      "axis": "composition",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Mixed-media design",
+      "family": "expressive",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Highly illustrated websites",
+      "family": "expressive",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Playful asymmetric composition",
+      "family": "expressive",
+      "axis": "composition",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Kinetic typography",
+      "family": "expressive",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Brutalism",
+      "family": "unconventional",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Neo-brutalism",
+      "family": "unconventional",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Raw HTML aesthetic",
+      "family": "unconventional",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Anti-design",
+      "family": "unconventional",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Punk",
+      "family": "unconventional",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Industrial design",
+      "family": "unconventional",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "High-contrast brutalism",
+      "family": "unconventional",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Experimental grid-breaking layouts",
+      "family": "unconventional",
+      "axis": "composition",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Technical utilitarianism",
+      "family": "unconventional",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Retro web design",
+      "family": "historical",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Y2K",
+      "family": "historical",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Early internet aesthetic",
+      "family": "historical",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Windows 95/98-inspired UI",
+      "family": "historical",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Retro-futurism",
+      "family": "historical",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Bauhaus",
+      "family": "historical",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Art Deco",
+      "family": "historical",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Art Nouveau",
+      "family": "historical",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Mid-century modern",
+      "family": "historical",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Memphis design",
+      "family": "historical",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Vintage editorial",
+      "family": "historical",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Risograph-inspired design",
+      "family": "historical",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Pixel-art interfaces",
+      "family": "historical",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Glassmorphism",
+      "family": "digital",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Neumorphism",
+      "family": "digital",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Skeuomorphism",
+      "family": "digital",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Claymorphism",
+      "family": "digital",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Flat design",
+      "family": "digital",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Material-inspired design",
+      "family": "digital",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Bento-grid composition",
+      "family": "digital",
+      "axis": "composition",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Spatial interfaces",
+      "family": "digital",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Immersive 3D",
+      "family": "digital",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Holographic design",
+      "family": "digital",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Gradient-rich interfaces",
+      "family": "digital",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Dark futuristic interfaces",
+      "family": "digital",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Cyberpunk",
+      "family": "digital",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Solarpunk",
+      "family": "digital",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Organic digital design",
+      "family": "digital",
+      "axis": "aesthetic",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Magazine-style layouts",
+      "family": "editorial",
+      "axis": "composition",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Newspaper-inspired layouts",
+      "family": "editorial",
+      "axis": "composition",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Long-form editorial storytelling",
+      "family": "editorial",
+      "axis": "composition",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Documentary websites",
+      "family": "editorial",
+      "axis": "composition",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Portfolio editorial",
+      "family": "editorial",
+      "axis": "composition",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Asymmetric editorial",
+      "family": "editorial",
+      "axis": "composition",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Photography-first design",
+      "family": "editorial",
+      "axis": "composition",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Image-dominant design",
+      "family": "editorial",
+      "axis": "composition",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Text-heavy experimental layouts",
+      "family": "editorial",
+      "axis": "composition",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Data-driven storytelling",
+      "family": "editorial",
+      "axis": "composition",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Enterprise SaaS",
+      "family": "products",
+      "axis": "product",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Developer tooling",
+      "family": "products",
+      "axis": "product",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Fintech dashboards",
+      "family": "products",
+      "axis": "product",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "AI product interfaces",
+      "family": "products",
+      "axis": "product",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Analytics platforms",
+      "family": "products",
+      "axis": "product",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "E-commerce storefronts",
+      "family": "products",
+      "axis": "product",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Creative agency websites",
+      "family": "products",
+      "axis": "product",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Startup landing pages",
+      "family": "products",
+      "axis": "product",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Personal portfolios",
+      "family": "products",
+      "axis": "product",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Educational platforms",
+      "family": "products",
+      "axis": "product",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Healthcare interfaces",
+      "family": "products",
+      "axis": "product",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Entertainment platforms",
+      "family": "products",
+      "axis": "product",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Gaming websites",
+      "family": "products",
+      "axis": "product",
+      "status": "needs-dedicated-research"
+    },
+    {
+      "name": "Media and streaming platforms",
+      "family": "products",
+      "axis": "product",
+      "status": "needs-dedicated-research"
+    }
+  ],
+  "note": "Backlog terms are an index, not completed profiles. Some overlap implemented recipes; aliases do not imply exhaustive historical coverage. New terms and axes can be added without changing routing code."
+}

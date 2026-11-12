@@ -1,0 +1,214 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "govuk-system",
+      "name": "GOV.UK Design System",
+      "url": "https://design-system.service.gov.uk/",
+      "industry": "government",
+      "styles": [
+        "utilitarian",
+        "typography-first"
+      ],
+      "patterns": [
+        "clear-navigation",
+        "service-components"
+      ],
+      "inspected": "2026-11-12",
+      "evidence": "rendered-observation",
+      "scope": "Initial viewport at 390x900 and 1440x900, reduced motion, cookie notice visible. No interactions exercised.",
+      "typography": "Computed h1: GDS Transport, arial, sans-serif; 32px/35px at 390, 48px/50px at 1440.",
+      "layout": "Desktop navigation and search share a wide container; mobile stacks search and Menu. Cookie notice occupies a substantial first-screen area.",
+      "color": "Rendered blue hero, white type and green cookie actions; computed body background white. No contrast audit performed.",
+      "motion": "Not tested; capture used reduced-motion preference.",
+      "observations": [
+        "Clear hierarchy connects the service-design task to a direct start action.",
+        "Desktop illustration supports the explanation while mobile prioritizes text.",
+        "No document overflow measured at either sampled width."
+      ],
+      "strengths": [
+        "Explicit navigation vocabulary",
+        "Legible type and predictable content grouping"
+      ],
+      "weaknesses": [
+        "Cookie notice delays first-screen access to the main action; a contextual tradeoff, not proof of poor UX."
+      ],
+      "use_when": "Service interfaces and information-heavy systems need recognizable task structure.",
+      "implementation": "Separate navigation, search and content landmarks; use semantic components and a mobile reading order based on task priority.",
+      "sources": [
+        "govuk"
+      ],
+      "awards": [],
+      "limitations": [
+        "No full accessibility audit, keyboard test or performance measurement.",
+        "Font family is a computed declaration, not a redistribution license."
+      ],
+      "local_evidence": "artifacts/references/govuk/"
+    },
+    {
+      "id": "linear-site",
+      "name": "Linear",
+      "url": "https://linear.app/",
+      "industry": "saas developer-tools",
+      "styles": [
+        "restrained",
+        "dark",
+        "product-led"
+      ],
+      "patterns": [
+        "workflow-proof",
+        "product-preview"
+      ],
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Text and computed h1 styles inspected at 390 and 1440. Browser screenshots showed navigation but blank hero even after a load/heading readiness retry; visual analysis is incomplete.",
+      "typography": "Computed h1 declares Inter Variable; 38px/41.8px at 390, 64px/64px at 1440. Screenshot did not expose the heading.",
+      "layout": "Only navigation was visibly confirmed; remaining composition cannot be inferred from DOM text.",
+      "color": "Computed body rgb(8,9,10), h1 rgb(247,248,248); no contrast audit.",
+      "motion": "Unknown; reduced-motion capture did not show hero. No cause established.",
+      "observations": [
+        "Text content includes detailed product issue and review context rather than only abstract marketing.",
+        "No document overflow measured at sampled widths; that does not establish visual completeness."
+      ],
+      "strengths": [
+        "Product-specific content provides a useful communication pattern."
+      ],
+      "weaknesses": [
+        "Visual review limited by incomplete rendering in this environment; not a finding against the live product."
+      ],
+      "use_when": "Explain a software workflow with concrete task content.",
+      "implementation": "Build an original preview showing your own product's meaningful state and action; do not copy Linear's identity.",
+      "sources": [
+        "linear"
+      ],
+      "awards": [],
+      "limitations": [
+        "No complete rendered hero, interaction, accessibility or performance evaluation."
+      ],
+      "local_evidence": "artifacts/references/linear-settled/"
+    },
+    {
+      "id": "figma-site",
+      "name": "Figma",
+      "url": "https://www.figma.com/",
+      "industry": "creative-tools",
+      "styles": [
+        "expressive-candidate"
+      ],
+      "patterns": [
+        "product-family-navigation"
+      ],
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Text and DOM computed values inspected at 390 and 1440. Screenshots remained blank after load/heading readiness retry; expressive classification is a research candidate, not a rendered finding.",
+      "typography": "Computed h1 declares figmaSans with fallbacks; 36px/36px mobile and 56px/56px desktop.",
+      "layout": "Text exposes a product-family navigation hierarchy. No visual composition verified.",
+      "color": "Computed h1 black, body transparent; actual composite background not inferred.",
+      "motion": "Not observed.",
+      "observations": [
+        "Product families are described by user activity in the textual navigation.",
+        "DOM overflow flag was true at both sampled widths; with blank screenshots the cause and user impact are unresolved."
+      ],
+      "strengths": [
+        "Action-based product grouping is a useful information-architecture pattern."
+      ],
+      "weaknesses": [
+        "Cannot assess visual quality from the available captures."
+      ],
+      "use_when": "A suite needs understandable grouping by task.",
+      "implementation": "Name product groups around user goals and keep navigation semantics independent of art direction.",
+      "sources": [
+        "figma"
+      ],
+      "awards": [],
+      "limitations": [
+        "No verified visual style, interaction, accessibility or performance result."
+      ],
+      "local_evidence": "artifacts/references/figma-settled/"
+    },
+    {
+      "id": "stripe-site",
+      "name": "Stripe",
+      "url": "https://stripe.com/",
+      "industry": "fintech",
+      "styles": [
+        "product-led"
+      ],
+      "patterns": [
+        "concrete-product-proof",
+        "multiple-audiences"
+      ],
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Live page textual content only; web retrieval redirected to /en-ch.",
+      "typography": "Not inspected.",
+      "layout": "Text distinguishes payments, billing and other product groups; rendered composition not inspected.",
+      "color": "Not inspected.",
+      "motion": "Not inspected.",
+      "observations": [
+        "Text includes billing usage and transaction-related context alongside product categories.",
+        "Self-serve and sales-contact actions address different visitor needs."
+      ],
+      "strengths": [
+        "Product examples connect broad infrastructure claims to specific use cases."
+      ],
+      "weaknesses": [
+        "Large product scope may increase navigation cost; this is a hypothesis requiring task testing."
+      ],
+      "use_when": "A complex offering needs concrete examples and audience-specific entry points.",
+      "implementation": "Use factual task examples, meaningful units and clearly distinguished next actions.",
+      "sources": [
+        "stripe"
+      ],
+      "awards": [],
+      "limitations": [
+        "No rendered typography, responsive behavior, interaction or performance claims."
+      ]
+    },
+    {
+      "id": "lusion-archive",
+      "name": "Lusion v3 — award research lead",
+      "url": "https://lusion.co/",
+      "industry": "creative-agency",
+      "styles": [
+        "experimental-candidate"
+      ],
+      "patterns": [
+        "award-research"
+      ],
+      "inspected": "2026-11-12",
+      "evidence": "document-inspection",
+      "scope": "Awwwards archive entry only; live site not inspected.",
+      "typography": "Unknown.",
+      "layout": "Unknown.",
+      "color": "Unknown.",
+      "motion": "Unknown.",
+      "observations": [
+        "Lusion v3 appears in the Awwwards Sites of the Year archive with a 2023 label."
+      ],
+      "strengths": [
+        "A primary award archive provides a traceable lead for historical study."
+      ],
+      "weaknesses": [
+        "Archive text alone cannot reveal why the design works."
+      ],
+      "use_when": "Selecting a historical creative-site case for deeper inspection.",
+      "implementation": "Inspect the awarded version and current site separately before borrowing any design principle.",
+      "sources": [
+        "awwwards"
+      ],
+      "awards": [
+        {
+          "organization": "Awwwards",
+          "designation": "Listed in Sites of the Year archive",
+          "year": 2023,
+          "source": "https://www.awwwards.com/websites/sites_of_the_year/"
+        }
+      ],
+      "limitations": [
+        "Not asserted to be the single jury grand-prize winner.",
+        "No live-site analysis; do not use as validated design guidance."
+      ]
+    }
+  ]
+}

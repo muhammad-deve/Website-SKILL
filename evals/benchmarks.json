@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "benchmarks": [
+    {
+      "id": "fintech-dashboard",
+      "title": "Premium fintech SaaS dashboard",
+      "brief": "Reconcile overdue invoices for a small finance team.",
+      "style": "technical-utilitarian",
+      "required": "Search, status filter, recoverable empty state, clear currency and due dates.",
+      "constraints": "No real customer data or invented performance claims.",
+      "status": "not-run"
+    },
+    {
+      "id": "luxury-fashion",
+      "title": "Luxury fashion landing page",
+      "brief": "Explain a three-piece capsule collection and lead to product detail.",
+      "style": "luxury-editorial",
+      "required": "Material, sizing, price and availability remain discoverable on mobile.",
+      "constraints": "Use only supplied/licensed images; mark example product information.",
+      "status": "not-run"
+    },
+    {
+      "id": "minimal-portfolio",
+      "title": "Minimalist portfolio",
+      "brief": "Present three architectural concept studies and the designer's role.",
+      "style": "swiss-editorial",
+      "required": "Readable case studies and a working contact route.",
+      "constraints": "No fabricated client outcomes; long project titles must wrap.",
+      "status": "not-run"
+    },
+    {
+      "id": "brutalist-agency",
+      "title": "Brutalist creative agency",
+      "brief": "Present independent studio work with an unconventional but navigable composition.",
+      "style": "industrial-brutalism",
+      "required": "Project navigation, readable case content, keyboard focus.",
+      "constraints": "No cursor-dependent essential controls.",
+      "status": "not-run"
+    },
+    {
+      "id": "maximalist-festival",
+      "title": "Maximalist entertainment",
+      "brief": "Help visitors explore a three-day music program.",
+      "style": "expressive-maximalism",
+      "required": "Working day filter, venue/access details, clear pass information.",
+      "constraints": "No flashing; reduced-motion page remains complete.",
+      "status": "not-run"
+    },
+    {
+      "id": "startup-homepage",
+      "title": "Startup homepage",
+      "brief": "Explain a scheduling product to operations managers.",
+      "style": "technical-utilitarian",
+      "required": "Product workflow, clear next step and credible limits.",
+      "constraints": "No invented logos, testimonials or growth metrics.",
+      "status": "not-run"
+    },
+    {
+      "id": "editorial-magazine",
+      "title": "Editorial magazine",
+      "brief": "Publish a feature essay with two related stories.",
+      "style": "swiss-editorial",
+      "required": "Readable long-form measure, captioned imagery, article navigation.",
+      "constraints": "Preserve semantic order and zoom readability.",
+      "status": "not-run"
+    },
+    {
+      "id": "commerce-product",
+      "title": "E-commerce product detail",
+      "brief": "Help a visitor compare sizes and choose a handmade chair finish.",
+      "style": "luxury-editorial",
+      "required": "Variant selection, availability, delivery and price.",
+      "constraints": "No simulated payment success without an actual backend.",
+      "status": "not-run"
+    },
+    {
+      "id": "enterprise-analytics",
+      "title": "Enterprise analytics",
+      "brief": "Help a team investigate a change in support demand.",
+      "style": "technical-utilitarian",
+      "required": "Filterable data, time range, units and a chart data alternative.",
+      "constraints": "Show loading/error/empty; no ungrounded causal explanations.",
+      "status": "not-run"
+    },
+    {
+      "id": "cinematic-product",
+      "title": "Cinematic product story",
+      "brief": "Explain a portable audio device through three meaningful product chapters.",
+      "style": "luxury-editorial",
+      "required": "User-controlled progression and a static reduced-motion alternative.",
+      "constraints": "No scroll hijacking; avoid requiring 3D for product facts.",
+      "status": "not-run"
+    },
+    {
+      "id": "consumer-mobile",
+      "title": "Mobile-first consumer application",
+      "brief": "Help a neighborhood group browse and save local activities.",
+      "style": "retro-interface",
+      "required": "Browse, filter, save, empty state and keyboard access.",
+      "constraints": "Retro is an optional trial direction; compare fit rather than assuming it.",
+      "status": "not-run"
+    },
+    {
+      "id": "existing-redesign",
+      "title": "Existing-site redesign",
+      "brief": "Improve a deliberately weak but functional invoice workspace.",
+      "style": "technical-utilitarian",
+      "required": "Preserve routes, fixtures and filtering behavior; compare before/after.",
+      "constraints": "Baseline must come from the same independent generation protocol, not a sabotaged page.",
+      "status": "not-run"
+    }
+  ]
+}

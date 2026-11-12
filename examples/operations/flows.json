@@ -1,0 +1,4 @@
+[
+  {"name":"overdue-filter","steps":[{"action":"click","selector":"#show-overdue"},{"action":"expectText","selector":"#result-count","text":"1 invoice"},{"action":"expectText","selector":"#rows","text":"Harbor Goods"}]},
+  {"name":"empty-and-recover","steps":[{"action":"fill","selector":"#query","value":"no-such-customer"},{"action":"expectVisible","selector":"#empty"},{"action":"expectText","selector":"#result-count","text":"0 invoices"},{"action":"click","selector":"#clear"},{"action":"expectText","selector":"#result-count","text":"4 invoices"}]}
+]

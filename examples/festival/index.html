@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="A fictional three-day independent music festival."
+    />
+    <title>Common Frequency — a weekend in full color</title>
+    <link rel="stylesheet" href="../shared.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header>
+      <a class="wordmark" href="#main"
+        >common<br />frequency<span aria-hidden="true">✳</span></a
+      >
+      <nav aria-label="Main">
+        <a href="#lineup">The lineup</a><a href="#visit">Plan your visit</a
+        ><a class="nav-pass" href="#passes">Passes</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="hero-meta">
+          <p>18–20 June 2027</p>
+          <p>Riverbank Park / fictional event</p>
+        </div>
+        <h1>Find your<br /><span>frequency.</span></h1>
+        <div class="hero-bottom">
+          <p>
+            Three days. Two stages.<br />A whole weekend of finding<br />your
+            new favorite sound.
+          </p>
+          <a class="big-link" href="#lineup"
+            >Meet the lineup <span aria-hidden="true">↘</span></a
+          >
+          <div class="record" aria-hidden="true"><span>CF</span></div>
+        </div>
+        <div class="bars" aria-hidden="true"></div>
+      </section>
+      <section id="lineup" class="lineup">
+        <div class="section-top">
+          <div>
+            <p>Different sounds. Shared ground.</p>
+            <h2>Come for one.<br />Stay for everyone.</h2>
+          </div>
+          <div class="filter">
+            <label for="day">Explore the program</label
+            ><select id="day">
+              <option value="all">All three days</option>
+              <option value="friday">Friday 18 June</option>
+              <option value="saturday">Saturday 19 June</option>
+              <option value="sunday">Sunday 20 June</option>
+            </select>
+            <p id="result-count" role="status">6 performances</p>
+          </div>
+        </div>
+        <ul class="artists">
+          <li data-day="friday">
+            <span>Friday / Meadow stage / 18:00</span>
+            <h3>Soft Static</h3>
+            <p>Restless rhythms, warm electronics.</p>
+          </li>
+          <li data-day="friday">
+            <span>Friday / Riverside stage / 20:00</span>
+            <h3>The Day Shapes</h3>
+            <p>Guitar songs for the long way home.</p>
+          </li>
+          <li data-day="saturday">
+            <span>Saturday / Meadow stage / 17:00</span>
+            <h3>Marble Season</h3>
+            <p>Big melodies with room to breathe.</p>
+          </li>
+          <li data-day="saturday">
+            <span>Saturday / Riverside stage / 21:00</span>
+            <h3>Afterimage Club</h3>
+            <p>A dancefloor that moves together.</p>
+          </li>
+          <li data-day="sunday">
+            <span>Sunday / Meadow stage / 16:00</span>
+            <h3>Paper Satellites</h3>
+            <p>Small stories, enormous choruses.</p>
+          </li>
+          <li data-day="sunday">
+            <span>Sunday / Riverside stage / 19:00</span>
+            <h3>Low Sun Radio</h3>
+            <p>One last slow sunset.</p>
+          </li>
+        </ul>
+      </section>
+      <section id="visit" class="visit">
+        <h2>Make yourself<br />at home.</h2>
+        <div>
+          <p>
+            Both stages are connected by level paths. A quiet space, accessible
+            viewing areas and drinking-water points are part of this fictional
+            site plan.
+          </p>
+          <details>
+            <summary>Access and arrival information</summary>
+            <p>
+              This is a design demonstration. In a real festival, this section
+              would include verified transport routes, step-free access details,
+              support contacts and companion-ticket policies.
+            </p>
+          </details>
+        </div>
+      </section>
+      <section id="passes" class="passes">
+        <div>
+          <p>A weekend together</p>
+          <h2>Leave room<br />for discovery.</h2>
+        </div>
+        <div class="pass-info">
+          <h3>Weekend pass</h3>
+          <p class="price">£95 <span>example price</span></p>
+          <p>
+            All three days, both stages. No real booking or payment is available
+            in this demo.
+          </p>
+          <button type="button" id="save">Save this festival</button>
+          <p id="save-status" role="status">
+            Save it in this browser for later.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Common Frequency is an original fictional festival.<br />All performers
+        and program details are invented for this example.
+      </p>
+      <a href="../">All examples</a>
+    </footer>
+  </body>
+</html>

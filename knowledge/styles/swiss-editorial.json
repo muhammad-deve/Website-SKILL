@@ -1,0 +1,86 @@
+{
+  "id": "swiss-editorial",
+  "name": "Swiss editorial",
+  "aliases": [
+    "swiss",
+    "international typographic style",
+    "typography-first",
+    "swiss typography"
+  ],
+  "axes": {
+    "aesthetic": [
+      "swiss",
+      "restrained"
+    ],
+    "composition": [
+      "modular-grid",
+      "asymmetric-editorial"
+    ],
+    "product": [
+      "portfolio",
+      "editorial"
+    ],
+    "density": "medium",
+    "motion": "low"
+  },
+  "philosophy": "Make relationships legible through alignment, scale and ordering. The grid is a compositional instrument, not a reason to turn every item into a card.",
+  "influences": "Contemporary interpretation of International Typographic Style: flush alignment, sans-serif hierarchy and disciplined asymmetry. This is practical art direction, not a sourced history of the movement.",
+  "characteristics": [
+    "A small number of strong alignment lines",
+    "Unequal columns with a clear reading sequence",
+    "Display typography that carries the composition"
+  ],
+  "use_cases": [
+    "Architecture practice portfolio",
+    "Research publication",
+    "Conference program"
+  ],
+  "typography": "Use a robust grotesk with distinct figures and adequate language coverage. A system sans is an acceptable prototype. Contrast sizes before adding families. Set body at 1rem–1.125rem, line-height 1.5–1.65, measure 55–70ch. Large headlines may tighten tracking; don't apply that to body text.",
+  "color": "Start with a paper/ink pair and one navigational accent. Accent may occupy a whole information band; it is not restricted to a single word. Test accent links on the actual background.",
+  "spacing": "Use 4/8/12/20/32/48/80px roles; tighter caption-to-image spacing than project-to-project spacing. Whitespace expresses relationships, not luxury by default.",
+  "composition": "Twelve desktop columns are a starting hypothesis: headline 8, context 4; project row 5/7. On mobile, use one reading column, retaining asymmetry through type and spacing rather than offscreen content.",
+  "imagery": "Use contextual photographs or original diagrams whose crop explains the subject. Caption factual images. Repeated aspect ratios establish rhythm; one justified panoramic interruption can signal a new topic.",
+  "iconography": "Sparse functional symbols; label unfamiliar actions. Optical alignment matters more than putting every mark in a decorative container.",
+  "components": "Prefer ruled project lists, clear navigation and compact metadata. Distinguish headings from clickable project names. Buttons can be rectangular; click targets still need adequate area.",
+  "interaction": "Project links navigate to real sections or pages. Filters should announce changed counts and retain the current selection. Preserve browser back behavior.",
+  "motion": "Use quick state feedback or a single editorial transition. Scrolling should not be required to reveal essential text. A static layout should remain complete.",
+  "mobile": "Collapse the layout in DOM reading order; do not use CSS order to conceal a confused source order. Permit long titles to wrap. Reduce display scale with clamp() while leaving the body readable.",
+  "accessibility": "Grid position cannot be the sole indicator of grouping. Use headings, lists and landmarks; check focus across full-width links, zoom and text spacing overrides.",
+  "mistakes": [
+    "Numbering unordered content as if it were a process",
+    "Tiny labels used to compensate for excessive headline size",
+    "Rigid columns that truncate translated titles"
+  ],
+  "amateurish": "Decorative rules everywhere, arbitrary offsets and exaggerated tracking without a coherent reading sequence.",
+  "exceptional": "Different content has distinct weight while recurring elements land on shared edges. Crops and typography express the actual discipline of the client.",
+  "references": [
+    "govuk-system",
+    "linear-site"
+  ],
+  "implementation": "Use CSS grid with minmax(0, 1fr), a named content container and shared row borders. Try grid-template-columns: 5fr 7fr above 50rem; one column below. See the original editorial example.",
+  "libraries": "Native Grid and fluid CSS usually suffice. No font or animation package is required; license any chosen webfont independently.",
+  "evaluation": [
+    "Can a reader identify subject, author and primary next step in one scan?",
+    "Do project titles remain distinct from their metadata at 320px?",
+    "Does asymmetry reinforce the content rather than scramble reading order?"
+  ],
+  "tokens": {
+    "background": "#ffffff",
+    "surface": "#f0f2f4",
+    "text": "#16191d",
+    "muted": "#50565e",
+    "accent": "#1645b5",
+    "on_accent": "#ffffff",
+    "radius": "0px",
+    "measure": "65ch",
+    "display": "clamp(2.5rem, 7vw, 6.5rem)"
+  },
+  "sources": [
+    "govuk",
+    "variable-fonts",
+    "wcag22"
+  ],
+  "version": 1,
+  "status": "implemented",
+  "evidence": "Original design recipe; source-linked engineering constraints. Not a validated causal model of visual quality."
+}
